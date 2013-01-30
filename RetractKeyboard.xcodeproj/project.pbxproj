@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		899C1F4B16B8D3C100FE101E /* NKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 899C1F4916B8D3C100FE101E /* NKeyboardView.m */; };
+		899C1F4C16B8D3C100FE101E /* NKeyboardView_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 899C1F4A16B8D3C100FE101E /* NKeyboardView_bg.png */; };
 		89FAEA4216B8C48F0044A04D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FAEA4116B8C48F0044A04D /* UIKit.framework */; };
 		89FAEA4416B8C48F0044A04D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FAEA4316B8C48F0044A04D /* Foundation.framework */; };
 		89FAEA4616B8C48F0044A04D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FAEA4516B8C48F0044A04D /* CoreGraphics.framework */; };
@@ -18,11 +20,12 @@
 		89FAEA5816B8C48F0044A04D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89FAEA5716B8C48F0044A04D /* Default-568h@2x.png */; };
 		89FAEA5B16B8C48F0044A04D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FAEA5916B8C48F0044A04D /* MainStoryboard.storyboard */; };
 		89FAEA5E16B8C48F0044A04D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FAEA5D16B8C48F0044A04D /* ViewController.m */; };
-		89FAEA8B16B8D1A70044A04D /* NKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FAEA8916B8D1A70044A04D /* NKeyboardView.m */; };
-		89FAEA8C16B8D1A70044A04D /* NKeyboardView_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 89FAEA8A16B8D1A70044A04D /* NKeyboardView_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		899C1F4816B8D3C100FE101E /* NKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKeyboardView.h; sourceTree = "<group>"; };
+		899C1F4916B8D3C100FE101E /* NKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKeyboardView.m; sourceTree = "<group>"; };
+		899C1F4A16B8D3C100FE101E /* NKeyboardView_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NKeyboardView_bg.png; sourceTree = "<group>"; };
 		89FAEA3E16B8C48F0044A04D /* RetractKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetractKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FAEA4116B8C48F0044A04D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		89FAEA4316B8C48F0044A04D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,9 +42,6 @@
 		89FAEA5A16B8C48F0044A04D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		89FAEA5C16B8C48F0044A04D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		89FAEA5D16B8C48F0044A04D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		89FAEA8816B8D1A70044A04D /* NKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKeyboardView.h; sourceTree = "<group>"; };
-		89FAEA8916B8D1A70044A04D /* NKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKeyboardView.m; sourceTree = "<group>"; };
-		89FAEA8A16B8D1A70044A04D /* NKeyboardView_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NKeyboardView_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		899C1F4716B8D3C100FE101E /* NKeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				899C1F4816B8D3C100FE101E /* NKeyboardView.h */,
+				899C1F4916B8D3C100FE101E /* NKeyboardView.m */,
+				899C1F4A16B8D3C100FE101E /* NKeyboardView_bg.png */,
+			);
+			path = NKeyboardView;
+			sourceTree = "<group>";
+		};
 		89FAEA3516B8C48F0044A04D = {
 			isa = PBXGroup;
 			children = (
+				899C1F4716B8D3C100FE101E /* NKeyboardView */,
 				89FAEA4716B8C48F0044A04D /* RetractKeyboard */,
 				89FAEA4016B8C48F0044A04D /* Frameworks */,
 				89FAEA3F16B8C48F0044A04D /* Products */,
@@ -93,7 +104,6 @@
 				89FAEA5916B8C48F0044A04D /* MainStoryboard.storyboard */,
 				89FAEA5C16B8C48F0044A04D /* ViewController.h */,
 				89FAEA5D16B8C48F0044A04D /* ViewController.m */,
-				89FAEA8716B8D1A70044A04D /* NKeyboardView */,
 				89FAEA4816B8C48F0044A04D /* Supporting Files */,
 			);
 			path = RetractKeyboard;
@@ -111,16 +121,6 @@
 				89FAEA5716B8C48F0044A04D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		89FAEA8716B8D1A70044A04D /* NKeyboardView */ = {
-			isa = PBXGroup;
-			children = (
-				89FAEA8816B8D1A70044A04D /* NKeyboardView.h */,
-				89FAEA8916B8D1A70044A04D /* NKeyboardView.m */,
-				89FAEA8A16B8D1A70044A04D /* NKeyboardView_bg.png */,
-			);
-			path = NKeyboardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +179,7 @@
 				89FAEA5616B8C48F0044A04D /* Default@2x.png in Resources */,
 				89FAEA5816B8C48F0044A04D /* Default-568h@2x.png in Resources */,
 				89FAEA5B16B8C48F0044A04D /* MainStoryboard.storyboard in Resources */,
-				89FAEA8C16B8D1A70044A04D /* NKeyboardView_bg.png in Resources */,
+				899C1F4C16B8D3C100FE101E /* NKeyboardView_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +193,7 @@
 				89FAEA4E16B8C48F0044A04D /* main.m in Sources */,
 				89FAEA5216B8C48F0044A04D /* AppDelegate.m in Sources */,
 				89FAEA5E16B8C48F0044A04D /* ViewController.m in Sources */,
-				89FAEA8B16B8D1A70044A04D /* NKeyboardView.m in Sources */,
+				899C1F4B16B8D3C100FE101E /* NKeyboardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
